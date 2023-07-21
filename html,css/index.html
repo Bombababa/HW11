@@ -3,28 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="./dz.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="prettierrc.json">
+    <title>DZ</title>
   </head>
   <body>
-    <div class="holder">
-      <h1>Title</h1>
-      <ul class="list">
-        <li>
-          <a href="#">link1</a>
-          <ul>
-            <li><a href="#">link2</a></li>
-            <li><a href="#">link3</a></li>
-          </ul>
-        </li>
-        <li><a href="https://www.youtube.com/" class="bob1">link4</a></li>
-        <li><a href="https://validator.w3.org/" class="bob2">link5</a></li>
-        <li><a href="#">link6</a></li>
-      </ul>
-      <p class="text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, accusamus.</p>
-      <h1>Title</h1>
-      <p class="text2">Lorem ipsum dolor sit amet.</p>
-    </div>
+    <h2>
+      При фокусуванні на полях вводу треба прибрати обводку та додати бордер (5px solid red) та інші
+      стилі якщо забажаєте :FOCUS
+    </h2>
+    <form>
+      <div class="form-item">
+        <span class="label"> Логін: </span>
+        <span class="field">
+          <input type="text" name="login" value="" class="form-text" />
+        </span>
+      </div>
+      <div class="form-item">
+        <span class="label"> Пароль: </span>
+        <span class="field">
+          <input type="password" name="pass" class="form-text" />
+        </span>
+      </div>
+      <p>
+        <input type="submit" value="Ввійти" />
+      </p>
+    </form>
+    <h2>Робота з бекграундом :NTH-CHILD()</h2>
+    <ul>
+      <li class="list-item">Зроби мій задній фон блакитного кольору</li>
+      <li class="list-item">Зроби мій задній фон фіолетового кольору</li>
+      <li class="list-item">Зроби мій задній фон сірого кольору</li>
+      <li class="list-item">Зроби мій задній фон фіолетового кольору</li>
+      <li class="list-item">Зроби мій задній фон сірого кольору</li>
+      <li class="list-item">Зроби мій задній фон фіолетового кольору</li>
+      <li class="list-item">Зроби мій задній фон сірого кольору</li>
+      <li class="list-item">Зроби мій задній фон фіолетового кольору</li>
+      <li class="list-item">Зроби мій задній фон сірого кольору</li>
+      <li class="list-item">Зроби мій задній фон зеленого кольору</li>
+    </ul>
   </body>
 </html>

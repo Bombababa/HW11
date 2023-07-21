@@ -1,1 +1,20 @@
-.logo{color: rgb(rgb(67, 114, 141), rgb(219, 231, 48), rgb(211, 156, 193));}
+.form-text:focus{
+     outline:rgb(0, 0, 0) solid 3px;
+     border: 2px solid red; 
+}
+
+.list-item:nth-child(2n){
+         background-color: violet;
+}
+
+.list-item:nth-child(odd){
+    background-color: gray;
+}
+
+.list-item:first-child{
+    background-color: blue;
+}
+
+.list-item:last-child{
+    background-color: green;
+}
