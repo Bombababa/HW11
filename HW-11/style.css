@@ -1,108 +1,220 @@
-* {
-  margin:0;
-  padding:0;
-  border:0;
-  box-sizing: border-box;
+ul,ol {
+    list-style: none;
 }
 
-@font-face {
-  font-family: 'Bungee Spice';
-  src: url(./fonts/Bungee/BungeeSpice-Regular.ttf);
-  src: url(./fonts/Bungee/BungeeSpice-Regular.ttf);
+a {
+    text-decoration: none;
 }
 
-body {
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 50px;
-  background-color: grey;
+.q {
+    color: #95E1D3;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.q:hover {
+color: #F38181;
 }
 
-.text {
-  font-family: 'Ubuntu', sans-serif;
+.a {
+    color: #95E1D3;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 98px;
+height: 33px;
+top: 17px;
+left: 360px;
 
-  color: #b4ad9e;
-
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
+/*margin-bottom: 100px;*/
 }
 
-.title {
-  font-family: 'Bungee Spice', sans-serif;
-
-  /* color: #b4ad9e; */
-
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
+nav {
+    margin-top: 100px;
 }
 
-.t {
-  text-transform: capitalize;
-  color: red;
+.b:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.be{
+  color: #333;
+font-family: Kaushan Script;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.eb{
+  color: #333;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+}
+
+.f{
+  color: #333;
+
+/* uppercase */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+font-variant: small-caps;
+}
+
+.p{
+  color: #B6B6B6;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 146.667% */
+}
+
+.se{
+  color: #333;
+font-family: Kaushan Script;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.ne{
+  color: #333;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+}
+
+.long{
+  color: #B6B6B6;
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.kEk{
+  width: 380px;
+height: 546px;
+top: 932px;
+left: 360px;
+
+}
+
+.kek{
+  width: 380px;
+height: 546px;
+top: 932px;
+left: 770px;
+
+}
+
+.kEEk{
+  width: 380px;
+height: 545px;
+top: 932px;
+left: 1180px;
+
+}
+
+.gg{
+  font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.GG{
   font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  /* font-style: italic; */
-  font-weight: 900;
-  line-height: 34px;
-  letter-spacing: 0.5px;
+font-size: 15px;
+font-style: italic;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
 }
 
-.list li:last-child {
-  background-color: black;
+.gg{
+  font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+
 }
 
-.button:focus {
-  outline: none;
-  border: 50px solid red;
+.GG{
+  font-family: Roboto;
+font-size: 15px;
+font-style: italic;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
 }
 
-.button:hover {
-  background-color: blue;
+ul{
+  display: flex;
 }
 
-.B {
+li{
+ margin-right: 30px;
 }
 
-#A {
+.mem{
+  color: #333;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+ 
+.but{
+  color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+background: #95E1D3;
 }
 
-[type='submit'] {
-}
+.put{
+  color: #B6B6B6;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
 
-body {
-}
-/* font-family: Playfair Display
-  400
-*/
-
-/* font-family: Ubuntu;
- 300
-*/
-
-.txt {
-  /* padding-top: 20px;
-  padding-right: 30px;
-  padding-bottom: 40px;`
-  padding-left: 50px;
-
-  padding: 20px 30px 40px 50px;
-
-  border-style: solid;
-  border-width: 5px;
-  border-color: red;
-
-  border: 5px solid red;
-
-  margin-right: 30px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  margin-left: 50px;
-
-  margin: 20px 30px 40px 50px; */
 }
