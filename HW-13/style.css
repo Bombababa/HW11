@@ -200,21 +200,38 @@ line-height: normal;
   color: #FFF;
 text-align: center;
 font-family: Montserrat;
-font-size: 14px;
+font-size: 17px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 font-variant: all-small-caps;
 background: #95E1D3;
+
 }
 
 .put{
   color: #B6B6B6;
 text-align: center;
 font-family: Roboto;
-font-size: 14px;
+font-size: 17px;
 font-style: italic;
 font-weight: 300;
 line-height: normal;
 
+}
+
+.bek{
+  color: #F38181;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.t{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-top: 15px;
 }
