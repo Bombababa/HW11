@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.color{
+    background-color: black;
+}
+
+.header{
+height: 93px;
+background: #012D63;
+padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.nike{
+width: 100px;
+height: 60px;
+margin-top: 10px;
+margin-left: 102px;
+}
+
+
+
+.page{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    position: absolute;
+    height: 30px;
+    top: 30px;
+    left: 320px;
+
+
+    
+}
+
+.benef{
+    color: #C7C7C7;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+display: flex;
+position: absolute;
+height: 30px;
+top: 30px;
+left: 461px;
+
+}
+
+.advant{
+    color: #C7C7C7;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+display: flex;
+position: absolute;
+height: 30px;
+top: 30px;
+left: 576px;
+
+}
+
+.reviews{
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    position: absolute;
+    height: 30px;
+    top: 30px;
+    left: 730px;
+
+}
+
+.contact{
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    position: absolute;
+    height: 30px;
+    top: 30px;
+    left: 847px;
+
+}
+
+.order{
+    color: #C7C7C7;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+display: flex;
+position: absolute;
+height: 30px;
+top: 30px;
+left: 963px;
+}
+
+.Ua{
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    position: absolute;
+    height: 30px;
+    top: 30px;
+    left: 1094px;
+
+}
+
+.Eng{
+    color: #DCDCDC;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    position: absolute;
+    height: 30px;
+    top: 30px;
+    left: 1130px;
+
+}
+
+.container{ 
+ width: 1140px;
+ padding: 0 15px;
+ margin: 0 auto;
+}
+
+.hero{
+    background-image: url(./section.png);
+    padding-top: 93px;
+    padding-bottom: 183px;
+    background-repeat: no-repeat;
+}
+
+.heroimg{
+   
+}
+
+.heroh2{
+    color: #FFF;
+font-family: PT Serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -10px;
+}
+
+.heroh1{
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 144px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.heroh3{
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -20px;
+margin-bottom: -20px;
+}
+
+.herop{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 508px;
+    margin-top: 20px;
+}
+
+.herob{
+    border-radius: 10px;
+background: #8E32C6;
+width: 254px;
+height: 67px;
+
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 41px;
+}
+
+.herob:hover{
+      
+}
+
+.herob:focus{
+    outline: none;
+}
+
+.advantages{
+    background-image: url(./fonpurpblue.jpg);
+    background-repeat: no-repeat;
+    padding: 105px 0; 
+    
+}
+
+.advantageslist{
+    border: 5px solid #8E32C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
