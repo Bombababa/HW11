@@ -5,8 +5,12 @@
     box-sizing: border-box;
 }
 
+ul,ol{
+    list-style: none;
+}
+
 .color{
-    background-color: black;
+    background-color: white;
 }
 
 .header{
@@ -84,7 +88,7 @@ left: 576px;
 
 }
 
-.reviews{
+.review{
     color: #C7C7C7;
     font-family: Roboto;
     font-size: 24px;
@@ -162,6 +166,7 @@ left: 963px;
  width: 1140px;
  padding: 0 15px;
  margin: 0 auto;
+ position: relative;
 }
 
 .hero{
@@ -169,10 +174,6 @@ left: 963px;
     padding-top: 93px;
     padding-bottom: 183px;
     background-repeat: no-repeat;
-}
-
-.heroimg{
-   
 }
 
 .heroh2{
@@ -231,10 +232,6 @@ line-height: normal;
 margin-top: 41px;
 }
 
-.herob:hover{
-      
-}
-
 .herob:focus{
     outline: none;
 }
@@ -243,7 +240,6 @@ margin-top: 41px;
     background-image: url(./fonpurpblue.jpg);
     background-repeat: no-repeat;
     padding: 105px 0; 
-    
 }
 
 .advantageslist{
@@ -251,6 +247,332 @@ margin-top: 41px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
+.advantages1{
+    width: 240px;
+    height: 346px;
+}
+
+.advantages2{
+    width: 240px;
+    height: 352px;
+}
+
+.advantages3{
+    width: 240px;
+    height: 349px;
+}
+
+.advantagesitem{
+position: relative;
+
+}
+
+.advantagesitem:not(:last-child):after{
+
+    right: -95px;
+    top: 0px;
+    position: absolute;
+    content: '';
+display: block;
+width: 1px;
+height: 340px;
+background: #FFF;
+}
+
+.advantagesitem:not(:last-child){
+margin-right: 145px;
+}
+
+.advantagestext1{
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 159px;
+    margin: 0 auto;
+}
+
+.advantagestext2{
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 161px;
+    margin: 0 auto;
+}
+
+.advantagestext3{
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 151px;
+    margin: 0 auto;
+}
+
+.reviews{
+    background-image: url(flower.png), url(./fonblye.jpg);
+    background-position: left, center;
+    background-size: contain,cover;
+    background-repeat: no-repeat;
+    padding-bottom: 115px;
+    padding-top: 25px;
+    margin-top: 2px;
+    }
+
+
+    .reviews-zag{
+        color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+    }
+    .reviews-list{
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .reviews-items:not(:first-child){
+        margin-left: 93px;
+    }
+    .reviews-items{
+        width: 255px;
+        padding-top: 49px;
+        padding-bottom: 29px;
+    }
+    .first{
+        padding-left: 13px;
+        border-radius: 15px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    }
+    .second{
+        padding-left: 18px;
+        border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+    }
+    .third{
+        padding-left: 18px;
+        border-radius: 15px;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+    }
+    .reviews-text{
+        /* margin: 0 auto; */
+        width: 228px;
+        margin-bottom: 10px;
+        color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .reviews-time{
+        margin-bottom: 47px;
+        color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .reviews-zag2{
+        color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    }
+    .reviews-date{
+        color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .reviews-block{
+        display: flex;
+    }
+
+
+
+    .Order{
+        margin-top: 2px;
+        background-image: url(./fonflower.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+height: 509px;
+flex-shrink: 0;
+    }
+
+    .orderh2{
+        color: #FFF;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+    }
+
+    .Orderinput{
+        display: block;
+        width: 580px;
+        height: 50px;
+        border-radius: 50px;
+    background: #FFF;
+    padding-left: 24px;
+    color: #959595;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    }
+    .Orderinput:not(:last-child){
+    margin-bottom: 19px;
+    }
+    .Orderbutton{
+        width: 248px;
+        height: 68px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    background: #8E32C6;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .Orderform{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .smoke{
+        width: 690px;
+    height: 60px;
+    flex-shrink: 0;
+    }
+    .Orderspan{
+        position: relative;
+    }
+    .Ordertext1{
+        color: #8D8D8D;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+    right: 79px;
+    }
+
+    .footer{
+        background: #021635;
+        padding-bottom: 45px;
+      padding-top: 50px;
+      }
+      
+      
+      .footertext{
+        color: #FFF;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      }
+      
+      .footerlink{
+        color: #FFF;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration-line: underline;
+      }
+      
+      .footerlistitem{
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      
+      .footerlistitem:not(:last-child){
+        margin-bottom: 10px;
+      }
+      
+      .footerlist{
+       border-bottom: 1px solid #9B9B9B;
+       padding-bottom: 20px;
+      }
+      
+      .container2{
+        padding-top: 24px;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      
+      .footertext2{
+        color: #FFF;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      
+      }
+      .footertext2:not(:last-child){
+        margin-bottom: 7px;
+      }
+      .footerlogo{
+        width: 108px;
+        height: 81px;
+        flex-shrink: 0;
+      }
+      
+      
+      .footertext3{
+        color: #FFF;
+      font-family: PT Serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 0 auto;
+      }
+      
+      .container3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
